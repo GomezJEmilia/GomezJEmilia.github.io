@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <title>Ahorcado Alura</title>
+  <link rel="stylesheet" href="CSS/reset.css">
+  <link rel="stylesheet" href="CSS/style.css">
+</head>
+
+<body>
+  <header class="header">
+    <img src="IMG/Vector.png" alt="Logo Alura" id="logo">
+    <h1 class="titulo">AHORCADO</h1>
+    <img src="IMG/Vector.png" alt="Logo Alura" id="logo" class="invisible">
+  </header>
+  <main>
+    <div class="conteiner">
+      <button class="btn" id="iniciar-juego" onclick="window.location.href = 'canvas.html'">INICIAR JUEGO</button>
+    </div>
+
+    <div>
+      <input class="text-input" type="text" id="input-nueva-palabra" placeholder="Escriba una nueva palabra">
+      <button class="btn" id="nueva-palabra">AGREGAR NUEVA PALABRA</button>
+    </div>
+  </main>
+  <footer id="rodapie">
+    <h1 class="textFooter">Coded by Emilia Gómez Juárez</h1>
+    <a href="https://www.linkedin.com/in/emilia-gómez-juárez/" alt="Linkedin" title="Linkedin"
+    target="_blank">
+    <ion-icon name="logo-linkedin"></ion-icon>
+  </a>
+  <a href="https://github.com/GomezJEmilia?tab=repositories" alt="GitHub" title="GitHub" target="_blank">
+    <ion-icon name="logo-github"></ion-icon>
+  </a>
+  </footer>
+
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <!--<script type="text/javascript" src="JS/canvas.js"></script>>-->
+  <script type="text/javascript" src="JS/ahorcado.js"></script>
+  <script src="JS/agregarPalabra.js"></script>
+</body>
+
+</html>

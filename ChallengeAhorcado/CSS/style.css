@@ -1,0 +1,121 @@
+@import url("https://fonts.googleapis.com/css2?family=Saira+Condensed:wght@500&display=swap");
+html {
+  height: auto;
+  min-height: 100%;
+}
+body {
+  background-color: #f7f7f7;
+}
+
+.main {
+  width: 80vw;
+  height: 35vw;
+  margin: auto;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.header {
+  text-align: center;
+  background-color: #f7f7f7;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+#logo {
+  padding: 1.2em;
+}
+
+.titulo {
+  font-family: "Saira Condensed", sans-serif;
+  font-size: 4.5em;
+  color: #1f3a8f;
+  text-shadow: 0 0 2em #a7a7a7;
+  text-align: center;
+  padding: 0.1em;
+  width: 30vw;
+  margin: auto;
+}
+main {
+  width: 80vw;
+  height: 35vw;
+  margin: auto;
+  text-align: center;
+}
+.conteiner {
+  padding: 3em;
+  margin: 2em auto;
+}
+
+#iniciar-juego {
+  border: 0;
+  color: white;
+  font-weight: bolder;
+  background-color: #1f3a8f;
+  padding: 1.5em 6em;
+  margin-top: 2em;
+  margin-bottom: 2em;
+  border-radius: 1.5em;
+}
+
+.text-input {
+  border-radius: 0.5em;
+  border: 0.1em solid rgba(0, 0, 0, 0.2);
+  display: block;
+  padding: 0.5em;
+  width: 35%;
+  height: 50px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#nueva-palabra {
+  border: 0;
+  color: #1f3a8f;
+  font-weight: bold;
+  background-color: #f7f7f7;
+  border: 0.1em solid #1f3a8f;
+  padding: 1.5em;
+  margin-top: 2em;
+  margin-bottom: 2em;
+  border-radius: 1.5em;
+}
+.invisible {
+  display: none;
+  
+}
+
+#rodapie {
+  background-color: #1f3a8f;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: auto;
+  padding: 1.5em;
+  margin-top: 4em;
+  text-align: center;
+}
+
+.textFooter {
+  font-family: "Saira Condensed", sans-serif;
+  font-size: 1.5em;
+  color: #f7f7f7;
+}
+
+a:link {
+  color: black;
+}
+
+a:visited {
+  color: black;
+}
+
+a:hover {
+  color: #f7f7f7;
+}
+
+ion-icon {
+  font-size: 2em;
+}
+

@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ahorcado Alura</title>
+    <link rel="stylesheet" href="CSS/reset.css">
+    <link rel="stylesheet" href="CSS/style.css">
+    <link rel="stylesheet" href="CSS/canvas.css">
+</head>
+
+<body>
+    <header class="header">
+        <img src="IMG/Vector.png" alt="Logo Alura" id="logo">
+        <h1 class="titulo">AHORCADO</h1>
+        <img src="IMG/Vector.png" alt="Logo Alura" id="logo" class="invisible">
+    </header>
+    <main>
+        <div style="text-align:center;" class="conteiner">
+            <button class="invisible" id="boton-invisible"></button>
+            <canvas id="ahorcado" height="800px" width="1200px" id="canvas"></canvas>
+            <input type="text" id="letra-intento" placeholder="Ingrese una letra" class="text-input">
+        </div>
+    </main>
+
+    <script src="JS/ahorcado.js"></script>
+    <script src="JS/canvas.js"></script>
+    <script>
+        window.onload = function () {
+            document.getElementById("boton-invisible").click();
+        };
+    </script>
+</body>
+
+</html>
